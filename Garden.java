@@ -69,7 +69,7 @@ class GardenPanel extends JPanel implements MouseListener, KeyListener
 		if (flower && !pink)
 		{
 			g.setColor(Color.YELLOW);
-			int x = 100; 
+			int x = 125; 
 			int y = 75;
 			for (int i = 1; i < 16; i++)
 			{
@@ -78,7 +78,7 @@ class GardenPanel extends JPanel implements MouseListener, KeyListener
 				if (i % 5 == 0 && i != 0)
 				{
 					y += 200;
-					x = 100;
+					x = 125;
 				}
 			}
 		}	
