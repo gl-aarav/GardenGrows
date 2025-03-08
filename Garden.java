@@ -74,7 +74,7 @@ class GardenPanel extends JPanel implements MouseListener, KeyListener
 			{
 				g.fillOval(x, y, 50, 50);
 				x += 200;
-				if (i % 5 == 0 && i != 0)
+				if (i % 5 == 0)
 				{
 					y += 200;
 					x = 125;
