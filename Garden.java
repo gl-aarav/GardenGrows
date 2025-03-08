@@ -53,7 +53,6 @@ class GardenPanel extends JPanel implements MouseListener, KeyListener
 	public void paintComponent(Graphics g)
 	{
 		super.paintComponent(g);
-		Font font = new Font("Arial", Font.PLAIN, 12);
 		g.drawString("Click the mouse and % to water the garden. Then, click the mouse and the up arrow to add sun and grow flowers. Press the Space Bar to reset.", 0, 12);
 		drawSoil(g);
 	}
